@@ -1,0 +1,56 @@
+cabal-version:       3.0
+name:                hello
+version:             0.1.0.0
+
+executable hello
+    main-is: Main.hs
+    build-depends:
+        base,
+        bytestring,
+        containers,
+        directory,
+        extra,
+        filepath,
+        mtl,
+        optparse-generic,
+        pretty-simple,
+        process,
+        safe,
+        stm,
+        text,
+        transformers,
+    hs-source-dirs: src
+    ghc-options:
+        -Wall
+        -Wincomplete-uni-patterns
+        -Wincomplete-record-updates
+        -fdefer-typed-holes
+        -threaded
+    default-language: Haskell2010
+    default-extensions:
+        DeriveFoldable
+        DeriveFunctor
+        DeriveGeneric
+        DeriveTraversable
+        FlexibleContexts
+        FlexibleInstances
+        LambdaCase
+        MultiParamTypeClasses
+        PartialTypeSignatures
+        TupleSections
+
+        ConstraintKinds
+        DerivingStrategies
+        FunctionalDependencies
+        GeneralisedNewtypeDeriving
+        GADTs
+        OverloadedLists
+        OverloadedStrings
+        PatternSynonyms
+        RankNTypes
+        ScopedTypeVariables
+        StandaloneDeriving
+        TypeFamilies
+        TypeFamilyDependencies
+        TypeOperators
+        ViewPatterns

@@ -6,19 +6,19 @@ executable hello
     main-is: Main.hs
     build-depends:
         base,
-        bytestring,
-        containers,
-        directory,
-        extra,
-        filepath,
-        mtl,
-        optparse-generic,
-        pretty-simple,
-        process,
+        -- bytestring,
+        -- containers,
+        -- directory,
+        -- extra,
+        -- filepath,
+        -- mtl,
+        -- optparse-generic,
+        -- pretty-simple,
+        -- process,
         safe,
-        stm,
-        text,
-        transformers,
+        -- stm,
+        -- text,
+        -- transformers,
     hs-source-dirs: src
     ghc-options:
         -Wall
